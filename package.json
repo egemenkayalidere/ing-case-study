@@ -1,0 +1,28 @@
+{
+  "name": "lit-element-project",
+  "version": "1.0.0",
+  "description": "Lit Element Projesi",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "web-test-runner --coverage"
+  },
+  "keywords": [
+    "lit-element",
+    "web-components"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vaadin/router": "^2.0.0",
+    "@web/dev-server": "^0.4.6",
+    "lit": "^3.3.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^4.0.0",
+    "@web/test-runner": "^0.20.2",
+    "@web/test-runner-playwright": "^0.11.0",
+    "sinon": "^20.0.0"
+  }
+}
